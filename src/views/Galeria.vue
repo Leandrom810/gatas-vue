@@ -29,7 +29,7 @@
         <div class="galeria">
             <TransitionGroup name="imgss">
                 <div class="pic" v-for="(f, index) in currentPicAr" key="used"
-                :style="`background-image:url(../src/assets/${f.path})`"
+                :style="`background-image:url(../gatas-vue/src/assets/${f.path})`"
                 :class="f.shape"
                 @click="showPic(index)"
                 v-show="filter(index)">
