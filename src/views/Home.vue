@@ -17,7 +17,6 @@
 
 <script setup>
     import {gatas} from '../gatas.js';
-    import { RouterLink } from 'vue-router';
 </script>
 
 <style lang="scss" scoped>

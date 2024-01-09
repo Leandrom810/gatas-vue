@@ -8,8 +8,7 @@ import Galeria from './views/Galeria.vue'
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        {path: '/', component: Home},
-        {path: '/gatas-vue', redirect: '/'},
+        {path: '/gatas-vue', component: Home},
         {path: '/gatas-vue/galeria', component: Galeria},
         {path: '/galeria', redirect: '/gatas-vue/galeria'},
     ],

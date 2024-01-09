@@ -1,7 +1,7 @@
 <template>
     <div class="tnav">
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/galeria">Galeria</RouterLink>
+        <RouterLink to="/gatas-vue">Home</RouterLink>
+        <RouterLink to="/gatas-vue/galeria">Galeria</RouterLink>
     </div>
 </template>
 
