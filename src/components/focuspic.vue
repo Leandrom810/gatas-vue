@@ -1,7 +1,7 @@
 <template>
     <div class="bg-container" :key="indexo" @click="$emit('close')">
         <div class="pic">
-            <img :src="`../src/assets/${arr[indexo].path}`" alt="Falho :(">
+            <img :src="`../gatas-vue/src/assets/${arr[indexo].path}`" alt="Falho :(">
         </div>
     </div>
     <div class="tx">
