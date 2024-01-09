@@ -10,7 +10,8 @@ const router = createRouter({
     routes: [
         {path: '/', component: Home},
         {path: '/gatas-vue', redirect: '/'},
-        {path: '/galeria', component: Galeria},
+        {path: '/gatas-vue/galeria', component: Galeria},
+        {path: '/galeria', redirect: '/gatas-vue/galeria'},
     ],
 })
 
