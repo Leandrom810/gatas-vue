@@ -9,6 +9,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {path: '/', component: Home},
+        {path: '/gatas-vue', redirect: '/'},
         {path: '/galeria', component: Galeria},
     ],
 })
